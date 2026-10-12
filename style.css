@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    paddi*g:0;
+    box-sizing:border-box;
+}
+*body{
+    font*family:Arial,sans-serif;
+    line-*eight:1.6;
+    background:#f4f4f4;*}
+
+header{
+   *background:#003366;
+    color:whit*;
+    text*align:center;
+    padding:30px;
+}
+*nav{
+    background*#222;
+}
+
+nav ul{
+    display:flex;*    justify-content:center;
+    li*t-style:none;
+}
+
+nav ul li{
+    pa*ding:15px;
+}
+
+nav a{
+    text-deco*ation:none;
+    color:white;
+}
+
+se*tion{
+    padding:30px;
+}
+
+img{
+  * width:180px;
+    border-radius:50*;
+    display:block;
+    margin:20*x auto;
+}
+
+.card{
+    background:w*ite;
+    padding:20px;
+    margin:*5px 0;
+    border-radius:8px;
+    *ox-shadow:0 0 5px gray;
+}
+
+button{*    padding:12px 20px;
+    backgro*nd:#003366;
+    color:white;
+    b*rder:none;
+    cursor:pointer;
+}
+
+*utton:hover{
+    background:#0055a*;
+}
+
+footer{
+    background:#00336*;
+    color:white;
+    text-align:*enter;
+    padding:15px;
+}
+
+/* Responsive Design */
+
+@media (max-width:768px){
+
+    *av ul{
+        flex-direction:colu*n;
+        text-align:center;
+    *
+
+    img{
+        width:120px;
+  * }
+
+    section{
+        padding:1*px;
+    }
+}
+}
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        max-width: 150px;
+    }
+}
