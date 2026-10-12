@@ -1,6 +1,4 @@
-document.getEl*mentById("showEmail").addEventList*ner("click", function(){
-
-    docu*ent.getElementById("email").innerH*ML =
-    "Email: ahmed.mabrouk@gmail.com";
-
+document.getElementById("showEmail").addEventListener("click", function () {
+    document.getElementById("email").innerHTML =
+        "Email: ahmed.mabrouk@gmail.com";
 });
